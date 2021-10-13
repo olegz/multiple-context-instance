@@ -1,0 +1,20 @@
+spring:
+  context:
+    demo:
+      contexts:
+        contextA:
+          configuration-class-names:
+            oz.some.external.config.SampleConfiguration
+          environment:
+            items:
+              car:
+                make: BMW
+                model: 328i
+        contextB:
+          configuration-class-names:
+            oz.some.external.config.SampleConfiguration
+          environment:
+            items:
+              car:
+                make: Tesla
+                model: S3
